@@ -13,4 +13,5 @@ CREATE DATABASE train_booking;
 USE train_booking;
 -- Import tables from `db/schema.sql`
 
-https://github.com/user-attachments/assets/ec5453e5-6d79-4d21-87b6-46844b4fe5fa" />
+![Login Screen](images/screenshot(61).png)
+![Booking Panel](images/screenshot(62).png)
