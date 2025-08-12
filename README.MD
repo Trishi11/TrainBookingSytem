@@ -6,13 +6,6 @@
 - MySQL Connector/J (in `lib/` folder)
 - VS Code or IntelliJ
 
-## Setup
-1. Create database:
-```sql
-CREATE DATABASE train_booking;
-USE train_booking;
--- Import tables from `db/schema.sql`
-
 ## Screenshots
 ![Login Screen](https://github.com/Trishi11/TrainBookingSytem/blob/4c26f14413511b8c6503299463101119aa36575e/images/Screenshot%20(61).png)
 ![Passenger tab](https://github.com/Trishi11/TrainBookingSytem/blob/7ae4abdd80385e0b626ef5fe0121554aba15ba77/images/Screenshot%20(67).png)
@@ -22,5 +15,13 @@ USE train_booking;
 ![Book Now](https://github.com/Trishi11/TrainBookingSytem/blob/7ae4abdd80385e0b626ef5fe0121554aba15ba77/images/Screenshot%20(68).png)
 ![Ticket Booked](https://github.com/Trishi11/TrainBookingSytem/blob/7ae4abdd80385e0b626ef5fe0121554aba15ba77/images/Screenshot%20(69).png)
 
+
+
+## Setup
+1. Create database:
+```sql
+CREATE DATABASE train_booking;
+USE train_booking;
+-- Import tables from `db/schema.sql`
 
 
