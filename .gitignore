@@ -4,9 +4,14 @@
 *.war
 *.ear
 hs_err_pid*
+
+
  
 # VS Code
 .vscode/
+
+config.properties
+
 
 # Logs
 *.log

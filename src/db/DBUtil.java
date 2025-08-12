@@ -1,10 +1,9 @@
 package db;
+
 import java.sql.*;
+import ui.ConfigLoader;
 
 public class DBUtil {
-    private static final String URL = "jdbc:mysql://localhost:3306/rail_db?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root"; // <-- change
-    private static final String PASS = "root"; // <-- change
 
     static {
         try {
@@ -15,6 +14,10 @@ public class DBUtil {
     }
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USER, PASS);
+        return DriverManager.getConnection(
+            ConfigLoader.get("db.url"),
+            ConfigLoader.get("db.username"),
+            ConfigLoader.get("db.password")
+        );
     }
 }
